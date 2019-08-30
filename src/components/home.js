@@ -14,8 +14,8 @@ class Home extends Component {
     
     return (
       <React.Fragment>
-        <h1 className="display-4 mb-2">
-          <span className="text-danger">Home</span> Page
+        <h1>
+        home page
         </h1>
         <button onClick={this.simpleAction}>Test redux action</button>
         <h1> {this.props.result}</h1>
